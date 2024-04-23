@@ -34,4 +34,4 @@ class AU:
 time.sleep(10)
 while(True):
     AU.auto_drop_in_sofi()
-    time.sleep(500)
+    time.sleep(450)
