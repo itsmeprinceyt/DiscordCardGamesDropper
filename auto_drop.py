@@ -1,6 +1,7 @@
 import pyautogui
 import time
 import keyboard
+import random
 
 class AU:
     drop="sd"
@@ -34,5 +35,6 @@ class AU:
 
 time.sleep(10)
 while(True):
+    random_time = random.randint(450, 480)
     AU.auto_drop_in_sofi()
-    time.sleep(450)
+    time.sleep(random_time)
