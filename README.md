@@ -34,4 +34,4 @@ This script helps you grab the necessary screen coordinates for your display. Si
 
 ## Setup and Usage
 - `Python 3.x`
-- `Modules: pyautogui, time, keyboard`
+- `Modules: pyautogui, time, keyboard, random`
