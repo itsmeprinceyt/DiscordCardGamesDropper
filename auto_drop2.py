@@ -33,6 +33,7 @@ class AU:
         AU.move_click(422,691)
         AU.paste_string(AU.tag)
         AU.press_enter()
+        AU.move_click(422,691)
 
 time.sleep(10)
 while(True):
