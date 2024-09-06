@@ -1,4 +1,4 @@
-# Sofi Card Dropper Automatic
+# Discord Card Games Dropper
 
 **Disclaimer:** This program is intended for educational purposes only. The use of this program is not encouraged, and the author does not endorse its use.
 
