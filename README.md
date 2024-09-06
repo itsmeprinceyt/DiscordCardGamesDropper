@@ -32,7 +32,7 @@ This script automates the process of card dropping and tagging for both **Sofi**
 Several variations of the main automation script exist, designed to support different patterns of gameplay. For example:
 
 - **Sofi_Dropper.py:** Automatically drops cards for Sofi every 8 minutes and always selects the first card.
-- **Sofi_Dropper_SOFU.py:** Automatically drops cards for Sofi every 8 minutes and always selects the first card. This variation works with SOFU enabled.
+- **Sofi_Dropper_Sofu.py:** Automatically drops cards for Sofi every 8 minutes and always selects the first card. This variation works with SOFU enabled.
 - **Sofi_Dropper2.py:** Automatically drops cards for Sofi every 8 minutes and randomly selects any one of the three cards.
 
 > Note: The programs are designed to run indefinitely, continuously automating the card drops. To stop the execution, you'll need to manually terminate the program by closing the script or using a keyboard interrupt (e.g., `Ctrl + C` in the terminal).
