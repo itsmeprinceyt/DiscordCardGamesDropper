@@ -39,7 +39,7 @@ Several variations of the main automation script exist, designed to support diff
 
 ## Things to Consider
 
-- The program is designed based on a display resolution of **1336x768**. You will need to use `coordinates_grabber.py` to adjust the screen coordinates for your display and modify the main automation script accordingly.
+- The program is designed based on a display resolution of **1336x768**. You will need to use `Coordinates_Grabber.py` to adjust the screen coordinates for your display and modify the main automation script accordingly.
 - This tool automates mouse clicks and keyboard inputs, so ensure that no important work is running in the background when you execute the script.
 - Modify the automation logic to suit your specific gameplay requirements for Sofi and Karuta bots.
 
