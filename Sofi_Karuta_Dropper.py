@@ -16,9 +16,10 @@ class AU:
     SOFI_TAG = "st bd"
     KARUTA_DROP = "kd"
     KARUTA_TAG = "kt bd"
-    GLOBAL_TIME_SLEEP = 5
+    GLOBAL_TIME_SLEEP = 3
     SOFI_CARD_SELECTOR = [419, 486, 560]
     KARUTA_CARD_SELECTOR = [408,455,506]
+    KARUTA_CARD_SELECTOR2 = [414,488,558]
 
     @staticmethod
     def move_click(x, y):
@@ -51,7 +52,9 @@ class AU:
         if bot_name == "Sofi":
             AU.move_click(AU.SOFI_CARD_SELECTOR[random_number], 626)
         elif bot_name == "Karuta":
+            # Karuta has two types of drop button reaction styles, so I'll ensure the selected card is clicked regardless of the reaction style.
             AU.move_click(AU.KARUTA_CARD_SELECTOR[random_number], 626)
+            AU.move_click(AU.KARUTA_CARD_SELECTOR2[random_number], 626)
         AU.move_click(422, 691)
         print("Tagging Card... ")
         AU.paste_string(tag_command)
@@ -90,8 +93,6 @@ def main():
             print("SOFI (Phase 2):")
             AU.auto_drop(AU.SOFI_DROP, AU.SOFI_TAG, SOFI)
             
-            time.sleep(5)  # Short delay between Sofi and Karuta drops
-
             # Karuta Drop
             print("\nKARUTA (Phase 3): ")
             AU.auto_drop(AU.KARUTA_DROP, AU.KARUTA_TAG, KARUTA)
